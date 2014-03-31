@@ -1,0 +1,37 @@
+body { background:#FF5508; width: 100%; margin:0; padding:0; }
+
+#orpx_nav-bar *{ box-sizing: border-box;}
+#orpx_nav-bar { 
+
+	height: auto; 
+	padding: 4px 0; 
+	margin: 0; 
+	text-align: center; 
+	box-shadow:1px 1px 1px maroon; 
+	color: #000; font-size: 12px; 
+	background:url(logo3.png) #FF6608 right bottom no-repeat;
+	overflow:hidden;
+}
+#orpx_nav-bar a { color: #000; text-decoration: none;font-weight: bold;text-shadow:0 1px 0px #FF9;}
+#orpx_nav-bar a:hover { color: #007744; }
+#orpx_nav-bar label { line-height: 20px;vertical-align: bottom; }
+#orpx_nav-bar input[type=submit] { height:32px;border:1px solid #DD4405; background-color:#EE5507; color:#aa2203;}
+#orpx_nav-bar input[type=submit]:hover { background-color:#FF5507; color:#aa2203;}
+#orpx_nav-bar input[type=text] { height:32px;border:1px solid #DD4405; background-color:#FFFF44; padding:3px;}
+.windows-popup { 
+	height: auto; 
+	padding: 4px 0; 
+	margin: 0; 
+	text-align: center; 
+	box-shadow:1px 1px 1px maroon; 
+	color: #000; font-size: 12px; 
+	background:url(logo3.png) #FF6608 right bottom no-repeat;
+	overflow:hidden;
+
+	 clear: both; padding: 30px 0; text-align: center; margin-top: 152px; }
+.windows-popup { background-color: #C27D61; }
+.windows-popup p, .windows-popup form { margin: 5px; }
+#orpx_nav-bar .home,#orpx_nav-bar .bookmarklet,#orpx_nav-bar .url{line-height: 20px;margin:3px;padding-left: 20px;display: inline-block;height:20px;}
+#orpx_nav-bar .home{background:url(home.png) no-repeat left center ;}
+#orpx_nav-bar .bookmarklet{background:url(star.png) no-repeat left center ;}
+#orpx_nav-bar .url{background:url(world.png) no-repeat left center ;}
