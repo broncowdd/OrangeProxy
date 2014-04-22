@@ -8,7 +8,7 @@ if (!empty($_GET['url'])){
 }else{
 	$urlbookmarklet=''; 
 }
-$serverurl='http://proxy.warriordudimanche.net';
+$serverurl='http://your-server-url/path/to/script';
 $bookmarklet="<a class=\"bookmarklet\" href=\"javascript:javascript:(function(){var url = location.href;newurl='';for (i=0;i<url.length;i++){newurl+=url.substr(i,1)+'0';}window.location.replace('$serverurl/index.php?url=' + encodeURIComponent(newurl));})();\">Bookmarklet</a>";
 /*
 	+-----------------+------------------------------------------------------------+
